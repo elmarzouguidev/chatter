@@ -1,4 +1,5 @@
 <?php
+namespace DevDojo\Chatter\Tests;
 
 class RoutesTest extends TestCase
 {

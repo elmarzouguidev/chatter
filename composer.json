@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "luketowers/purifier": "~3.0"
+        "ezyang/htmlpurifier": "^4.17"
     },
     "require-dev": {
         "illuminate/cache": "^9.0|^10.0",
@@ -22,9 +22,12 @@
 		}
 	},
     "autoload-dev": {
-        "classmap": [
-            "tests/TestCase.php"
-        ]
+        "psr-4": {
+            "DevDojo\\Chatter\\Tests\\": "/tests"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
     },
     "extra": {
         "laravel": {

@@ -1,5 +1,6 @@
 <?php
 
+namespace DevDojo\Chatter\Tests;
 class ExampleTest extends TestCase
 {
     /**

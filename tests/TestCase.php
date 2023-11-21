@@ -1,6 +1,7 @@
 <?php
 
-abstract class TestCase extends Illuminate\Foundation\Testing\TestCase
+namespace DevDojo\Chatter\Tests;
+abstract class TestCase extends \PHPUnit\Framework\TestCase
 {
     /**
      * The base URL to use while testing the application.
